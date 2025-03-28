@@ -1,0 +1,181 @@
+:root {
+    --primary_colour: #067C5A;
+    --accent_colour: #fae3ad;
+    --secondary_colour: #F7B011;
+}
+
+body {
+    margin: 0;
+    font-family: Questrial, sans-serif;
+    height: 100vh;
+}
+
+h1, h2, h3, a, footer {
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+h1, h2, h3, a {
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+/*Header and navigation styling*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary_colour);
+    color: white;
+    width: 100%;
+}
+
+header div {
+    display: flex;
+    justify-content: start;
+    flex: 2
+}
+
+header h2 {
+    align-self: center;
+    text-align: center;
+    padding: 10px;
+}
+
+#menu {
+    color: white;
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 0.5rem 0.75rem;
+}
+
+#menu::before {
+    content: "≡";
+}
+
+#menu.show::before {
+    content: "X";
+}
+
+nav {
+    flex: 1 1 100%;
+    color: white;
+    align-items: center;
+}
+
+nav ul {
+    margin: auto;
+    padding: 0;
+}
+
+nav ul li {
+    flex: 1 1 100%
+}
+
+nav ul li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    color: #FFF;
+    text-align: center;
+    transition: 300ms;
+    font-size: 1rem;
+}
+
+
+
+.navigation {
+    display: none;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: solid #FFF;
+}
+
+.navigation li a:hover {
+    color: var(--secondary_colour);
+}
+
+.navigation.show {
+    display: flex;
+}
+
+.show li {
+    display: block;
+    margin: 5px 0;
+}
+
+/* main content styling */
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#temples_container {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#temples_container li {
+    margin: auto;
+    position: relative;
+}
+
+#temples_container li::before {
+    content: "";
+    width: 90%;
+    inset: 0;
+    margin: auto;
+    display: block;
+    position: absolute;
+    height: 95%;
+    border: solid thin lightgray;
+    border-radius: 5px;
+}
+
+#temples_container li figure {
+    display: grid;
+
+}
+
+#temples_container li figure img {
+    align-self: center;
+    justify-self: center;
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+}
+
+#temples_container li figure figcaption {
+    align-self: center;
+    justify-self: center;
+    padding: 5px;
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: var(--primary_colour);
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
+
+
