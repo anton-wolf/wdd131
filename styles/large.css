@@ -1,0 +1,7 @@
+@media screen and (min-width: 40rem) {
+    #content {
+        grid-template-columns: 1fr 1fr;
+         position: absolute;
+        height: 100%;
+    }
+}

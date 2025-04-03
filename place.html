@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="Chamber of Commerce - Directory">
+    <meta name="author" content="Katlego Kgwetiane - WDD131">
+
+    <meta property="og:title" content="Place | Katlego Kgwetiane | WDD131">
+
+    <title>Business Directory | Polokwane Chamber of Commerce</title>
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&family=Questrial&display=swap"
+          rel="stylesheet">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/windchill.js" defer></script>
+</head>
+<body>
+<header>
+    <h1 class="place">South Africa</h1>
+</header>
+<main class="place">
+    <section>
+        <h2 hidden>...</h2>
+        <div id="hero">
+
+            <picture>
+                <source srcset="images/springbok_victory_hero_medium.webp" media="(max-width: 31.25rem)">
+                <source srcset="images/springbok_victory_hero_large.webp" media="(max-width: 40rem)">
+                <source srcset="images/springbok_victory_hero_larger.webp" media="(max-width: 64rem)">
+                <source srcset="images/springbok_victory_hero_largest.webp" media="(min-width: 64rem)">
+                <img src="images/springbok_victory_hero_small.webp" alt="hero - springbok victory">
+            </picture>
+
+        </div>
+    </section>
+    <section id="content">
+        <h2 hidden>...</h2>
+        <div id="data">
+            <h2 class="place">Data</h2>
+            <ul>
+                <li><strong>Area:</strong> </li>
+                <li><strong>Population: </strong>62,000,000</li>
+                <li><strong>Capital: </strong>Pretoria (executive), Cape Town (legislative), Bloemfontein (judicial)</li>
+                <li><strong>Languages: </strong></li>
+                <li><strong>Currency: </strong>South African Rand (ZAR)</li>
+                <li><strong>Time Zone: </strong>UTC+2 (South Africa Standard Time - SAST)</li>
+                <li><strong>Calling Code: </strong>+27</li>
+                <li><strong>Internet TLD: </strong>.za</li>
+            </ul>
+        </div>
+        <div id="weather">
+            <h2 class="place">Weather</h2>
+            <div>
+                <img src="images/weather.svg" alt="weather icon">
+            </div>
+            <ul>
+                <li><strong>Temperature: </strong>9<sup>○</sup>C</li>
+                <li><strong>Conditions:</strong> Partly Cloudy</li>
+                <li><strong>Wind:</strong> 13 km/h</li>
+                <li id="wind_chill"><strong>Wind Chill: </strong></li>
+            </ul>
+        </div>
+    </section>
+</main>
+<footer>
+    <p>©<span id="currentyear"></span> 🏆M. Katlego Kgwetiane 🏆 South Africa</p>
+    <p id="lastModified"></p>
+</footer>
+</body>
+</html>

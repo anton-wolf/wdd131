@@ -25,6 +25,16 @@ h1, h2, h3, a {
     font-weight: 400;
 }
 
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+
+h1.place {
+    justify-self: center;
+}
+
 header {
     grid-area: header;
     background-color: var(--primary_colour);
@@ -74,7 +84,6 @@ nav ul li a {
     text-align: center;
 }
 
-
 nav ul li a:hover {
     color: var(--primary_colour);
 
@@ -88,6 +97,15 @@ main {
     gap: 10px;
     max-width: 1024px;
     justify-self: center;
+}
+
+main.place {
+    grid-template-columns: unset;
+    padding: unset;
+}
+
+#hero img {
+    width: 100%;
 }
 
 .card {
@@ -104,6 +122,38 @@ h2 {
     font-size: 1.2rem;
     height: min-content;
     padding: 5px;
+}
+
+h2.place {
+    background-color: unset;
+    color: unset;
+    font-weight: 600;
+}
+
+#content div{
+    background-color: var(--accent_colour);
+}
+
+#content ul{
+    padding: 0 10px 10px;
+}
+
+#data, #weather {
+    width: 80%;
+    margin: auto;
+}
+
+#data ul li, #weather ul li {
+    margin: .25rem 0;
+}
+
+#weather div{
+    display: grid;
+}
+
+#weather img{
+    width: 50px;
+    justify-self: center;
 }
 
 h3 {
@@ -158,5 +208,6 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
+    margin-top: 20px;
 }
 

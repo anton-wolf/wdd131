@@ -1,0 +1,18 @@
+@media screen and (min-width: 31.25rem) {
+    #content {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+
+
+
+    h2.place {
+        background-color: var(--primary_colour);
+        border-radius: unset;
+        color: unset;
+        font-weight: 600;
+        position: relative;
+        inset: 10px -10px;
+    }
+}
