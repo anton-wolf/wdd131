@@ -1,0 +1,124 @@
+[
+  {
+    "name": "Spaghetti with beef mince",
+    "serves": [
+      {
+        "adults": 2,
+        "children": 2,
+        "set": [
+          {
+            "ingredient": "Canola Oil",
+            "quantity": 2,
+            "unit": "tablespoon",
+            "instructions": [
+              "Let it heat in oil for 90 seconds."
+            ],
+            "cookingTime": [
+              90
+            ]
+          },
+          {
+            "ingredient": "Whole Onion",
+            "quantity": 1,
+            "preparation": [
+              {
+                "step": "dices",
+                "earlyPrep": true
+              }
+            ],
+            "instructions": [
+              "after, chopping add to oil heated oil.",
+              "Cook for 2 minutes."
+            ],
+            "cookingTime": [
+              120
+            ]
+          },
+          {
+            "ingredient": "Curry",
+            "quantity": 2,
+            "unit": "grams",
+            "instructions": [
+              "Add to cooking onion.",
+              "Continue cooking onion until it's browned."
+            ]
+          },
+          {
+            "ingredient": "Mince",
+            "quantity": 250,
+            "unit": "grams",
+            "preparation": [
+              {
+                "step": "Ensure it frozen prior (saves cooking time)",
+                "earlyPrep": true
+              }
+            ],
+            "instructions": [
+              "Add to pan after onion is browned",
+              "Add salt to taste",
+              "Cook until it's uniformly browned, but not too browned while stirring"
+            ],
+            "cookingTime": [
+              180,
+              360
+            ]
+          },
+          {
+            "ingredient": "tomatoes",
+            "quantity": 2.5,
+            "unit": "tomatoes",
+            "preparation": [
+              {
+                "step": "Grater the tomatoes",
+                "earlyPrep": true
+              }
+            ],
+            "instructions": [
+              "Add to pan after the mince has uniformly browned.",
+              "Continue to stir."
+            ],
+            "cookingTime": [
+              30
+            ]
+          },
+          {
+            "ingredient": "Mixed vegetable",
+            "quantity": 100,
+            "unit": "grams",
+            "instructions": [
+              "Add to pan and continue to stir",
+              "Cook for 3 minutes"
+            ],
+            "cookingTime": [
+              90
+            ]
+          },
+          {
+            "ingredient": "Savoury Mince Cook-In Dry Sauce",
+            "quantity": 24,
+            "unit": "grams",
+            "with": [
+              {
+                "ingredient": "Water",
+                "quantity": 400,
+                "unit": "ml"
+              }
+            ],
+            "instructions": [
+              "Add sauce to pan, while adding the water as well",
+              "Stir continually for 3 to 6 minutes",
+              "Adjust your salt to taste",
+              "Adjust your heat to low heat",
+              "Cooking for another 5 minutes with lid closed while occasionally stirring",
+              "Turn of the heat, remove the lid and let simmer for 10 minutes before serving"
+            ],
+            "cookingTime": [
+              480,
+              600
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

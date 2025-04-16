@@ -1,0 +1,113 @@
+:root {
+  --primary_colour: #067C5A;
+  --accent_colour: #fae3ad;
+  --secondary_colour: #F7B011;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: auto;
+  background: #f9f9f9;
+
+  label,
+  legend {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="date"],
+  select,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border: solid 2px var(--accent_colour)
+  }
+
+  .rating {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+    input {
+      display: none;
+    }
+
+    label {
+      font-size: 24px;
+      color: #666464;
+      cursor: pointer;
+    }
+
+    input:checked ~ label {
+      color: gold;
+    }
+  }
+
+  input[type="submit"] {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+
+  fieldset {
+    label {
+      input {
+        justify-self: start;
+        margin: 3px 0;
+      }
+
+      display: grid;
+    }
+
+    border-radius: 5px;
+  }
+}
+
+.review {
+  ul {
+    li {
+      p {
+        margin: unset;
+      }
+
+      margin: 5px 0;
+    }
+
+    list-style: none;
+    padding: 0;
+  }
+
+  justify-self: center;
+  padding: 20px;
+  border-radius: 5px;
+  background: var(--secondary_colour);
+  margin: 40px;
+  max-width: 50ch;
+}
+
+
+footer {
+  //grid-area: footer;
+  background-color: var(--primary_colour);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px;
+}

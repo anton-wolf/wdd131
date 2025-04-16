@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description"
+          content="Submitted Review">
+    <meta name="author" content="Katlego Kgwetiane">
+
+    <title>Submitted Review</title>
+    <link rel="stylesheet" href="styles/output.css">
+    <script src="scripts/review.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+<main>
+    <h1>Submitted Review</h1>
+    <div class="review"></div>
+    <template class="review_template">
+        <ul>
+            <li><strong>Product Name: </strong> <span class="rev_name"></span></li>
+            <li><strong>Rating: </strong><span class="rev_rating"></span></li>
+            <li><strong>Installation Date: </strong> <span class="rev_date"></span></li>
+            <li>Useful Features</li>
+            <li><strong>Easy Setup: </strong><span class="rev_setup"></span></li>
+            <li><strong>Durability: </strong><span class="rev_dura"></span></li>
+            <li><strong>High Performance: </strong><span class="rev_perf"></span></li>
+            <li><strong>Written Review:</strong></li>
+            <li>
+                <p class="rev_review"></p>
+            </li>
+            <li><strong>Reviewer: </strong>
+                <span class="rev_reviewer"></span></li>
+            <li>This product has <span class="rev_count"></span> reviews(s)</li>
+        </ul>
+    </template>
+</main>
+
+<footer>
+    <p>©<span id="currentyear"></span> 🏆 Katlego Kgwetiane 🏆 South Africa</p>
+    <p id="lastModified"></p>
+</footer>
+
+</body>
+</html>

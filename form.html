@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+          content="WDD131 dynamic web fundamentals">
+    <meta name="author" content="Katlego Kgwetiane">
+    <title>Product Review Form</title>
+    <link rel="stylesheet" href="styles/output.css">
+</head>
+<body>
+<h1>Product Review</h1>
+<form action="review.html" method="get">
+
+    <label for="product">Product Name:</label>
+    <select id="product" name="product" required>
+        <option value="" disabled selected>Select a Product ...</option>
+    </select>
+
+
+    <fieldset>
+        <legend>Overall Rating:</legend>
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5" required>
+            <label for="star5">&#9733;</label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4">&#9733;</label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3">&#9733;</label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2">&#9733;</label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1">&#9733;</label>
+        </div>
+    </fieldset>
+
+
+    <label for="install-date">Date of Installation:</label>
+    <input type="date" id="install-date" name="install_date" required>
+
+    <fieldset>
+        <legend>Useful Features (check all that apply):</legend>
+        <label><span>Easy Setup</span>
+            <input type="checkbox" id="feature1" name="feature1" value="Easy Setup">
+        </label>
+
+
+        <label><span>Durability</span><input type="checkbox" id="feature2" name="feature2" value="Durability"></label>
+
+
+        <label>
+            <span>High Performance</span>
+            <input type="checkbox" id="feature3" name="feature3" value="High Performance">
+        </label>
+    </fieldset>
+
+    <label for="review">Written Review:</label>
+    <textarea id="review" name="review" rows="4" cols="50"></textarea>
+
+    <label for="username">Your Name (optional):</label>
+    <input type="text" id="username" name="username">
+
+    <input type="submit" value="Publish Review">
+</form>
+
+<footer>
+    <p>©<span id="currentyear"></span> 🏆 Katlego Kgwetiane 🏆 South Africa</p>
+    <p id="lastModified"></p>
+</footer>
+
+<script src="scripts/script.js" defer></script>
+</body>
+</html>
