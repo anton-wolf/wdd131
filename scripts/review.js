@@ -24,6 +24,7 @@ review_clone.querySelector('.rev_date').textContent = params.get("install_date")
 review_clone.querySelector(".rev_setup").textContent = params.get("feature1");
 review_clone.querySelector(".rev_dura").textContent = params.get("feature2");
 review_clone.querySelector(".rev_perf").textContent = params.get("feature3");
+review_clone.querySelector(".rev_design").textContent = params.get("feature4");
 review_clone.querySelector(".rev_review").textContent = params.get("review");
 review_clone.querySelector(".rev_reviewer").textContent = params.get("username");
 review_clone.querySelector(".rev_count").textContent = localStorage.getItem("reviewCount");
